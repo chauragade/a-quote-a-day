@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>A quote a day</title>
+</head>
+<body>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div align="center">
+  <h1 style="color:#1a1a1a" id="quote"></h1>
+</div>
+
+<script>
+var quoteArray=[
+  "You cannot escape the responsibility of tomorrow by evading it today",
+  "All that I am, or hope to be, I owe to my angel mother",
+  "Character is like a tree and reputation like a shadow. The shadow is what we think of it; the tree is the real thing",
+  "Always bear in mind that your own resolution to succeed is more important than any other",
+  "Whatever you are, be a good one",
+  "The best way to destroy an enemy is to make him a friend",
+  "Nothing can stop the man with the right mental attitude from achieving his goal; nothing on earth can help the man with the wrong mental attitude",
+  "Do you want to know who you are? Don't ask. Act! Action will delineate and define you",
+  "In matters of style, swim with the current; in matters of principle, stand like a rock",
+  "Believe you can and you're halfway there",
+  "Do what you can, with what you have, where you are",
+  "Nobody cares how much you know, until they know how much you care",
+  "I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion.'",
+  "To be able to give away riches is mandatory if you wish to possess them. This is the only way that you will be truly rich",
+  "He who is not courageous enough to take risks will accomplish nothing in life",
+  "I can accept failure, everyone fails at something. But I can't accept not trying",
+  "My attitude is that if you push me towards something that you think is a weakness, then I will turn that perceived weakness into a strength.",
+  "Some people want it to happen, some wish it would happen, others make it happen",
+  "Always turn a negative situation into a positive situation",
+  "I've always believed that if you put in the work, the results will come"
+  ];
+
+  var randomNumber=Math.floor((Math.random() * 20) + 1);
+  document.getElementById('quote').innerHTML=quoteArray[randomNumber-1];
+
+</script>
+
+</body>
+</html>
